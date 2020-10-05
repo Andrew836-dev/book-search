@@ -4,6 +4,7 @@
   "description": "Book search for Google Books",
   "main": "server.js",
   "scripts": {
+    "test": "mocha",
     "start": "if-env NODE_ENV=production && yarn run start:prod || yarn run start:dev",
     "start:prod": "node server.js",
     "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"yarn run client\"",
@@ -16,11 +17,15 @@
   "author": "Andrew Gray",
   "license": "MIT",
   "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
     "concurrently": "^4.1.0",
+    "mocha": "^8.1.3",
     "nodemon": "^1.18.7"
   },
   "dependencies": {
     "express": "^4.16.3",
-    "if-env": "^1.0.4"
+    "if-env": "^1.0.4",
+    "mongoose": "^5.10.7"
   }
 }
