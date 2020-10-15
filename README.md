@@ -1,29 +1,25 @@
-# Create React Express App
+# book-search
+## Description
+Application for searching Google books (https://www.googleapis.com/books)  
+![License badge](https://img.shields.io/badge/license-MIT-green)
+## Table of Contents
+1. [Usage](#Usage)
+2. [Screenshots](#Screenshots)
+3. [License](#License)
+4. [Tests](#Tests)
+5. [Questions?](#Questions)
 
-## About This Boilerplate
+## Usage
+The application is deployed on Heroku. [Link to deployed app.](https://andrew-booksearch.herokuapp.com)
+## Screenshots
+<img src="./screenshots/landing.png" alt="Landing page" height="300px">
+<img src="./screenshots/saved.png" alt="Saved book list" height="300px">
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
-
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
-
-## Starting the app locally
-
-Start by installing front and backend dependencies. While in this directory, run the following command:
-
-```
-npm install
-```
-
-This should install node modules within the server and the client folder.
-
-After both installations complete, run the following command in your terminal:
-
-```
-npm start
-```
-
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
-
-## Deployment (Heroku)
-
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+## License
+This project uses a MIT license.
+## Tests
+Integration tests for express API
+## Questions
+You can find my github account at
+[andrew836-dev](https://github.com/andrew836-dev)  
+Or you can email me andrew.aj.gray@gmail.com
