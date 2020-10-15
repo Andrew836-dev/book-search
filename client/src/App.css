@@ -1,0 +1,8 @@
+nav {
+  background: linear-gradient(transparent, transparent 80%, black);
+}
+
+.is-active {
+  background: radial-gradient(black 42%,transparent 72%, transparent);
+  color: white !important;
+}

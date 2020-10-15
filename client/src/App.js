@@ -4,6 +4,7 @@ import Homepage from "./pages/Homepage";
 import SavedList from "./pages/SavedList"
 import Detail from "./pages/Detail";
 import "./bulma/css/bulma.min.css";
+import "./App.css";
 import API from "./utils/API";
 
 function App() {
