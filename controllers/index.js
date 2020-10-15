@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const models = require("../models");
 const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/book-search";
 
-const defaultOptions = { useNewUrlParser: true, useUnifiedTopology: true }
+const defaultOptions = { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true }
 const db = {
   connect: async function(url = MONGODB_URI, options = defaultOptions) {
     return mongoose.connect(url, options);
